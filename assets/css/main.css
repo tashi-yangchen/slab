@@ -916,7 +916,7 @@ section,
 # Blog Hero Section
 --------------------------------------------------------------*/
 .blog-hero {
-  padding-top: 20px;
+  margin-top: -100px;
 }
 
 .blog-hero .blog-grid {
@@ -1060,6 +1060,16 @@ section,
 
 .blog-hero .blog-item .post-title a:hover {
   color: color-mix(in srgb, var(--contrast-color), transparent 20%);
+}
+
+.negative-margin{
+  margin-top: -150px;
+  margin-bottom: -100px;
+}
+
+.negative-margin p{
+  justify-content: justify;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -2898,6 +2908,9 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about{
+  margin-top: -75px;
+}
 .about .section-badge {
   display: inline-flex;
   align-items: center;
@@ -3579,4 +3592,9 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+.justified-content{
+  justify-content: justify;
+  text-align: justify;
 }
